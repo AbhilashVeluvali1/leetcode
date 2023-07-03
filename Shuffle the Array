@@ -1,0 +1,13 @@
+class Solution {
+    public int[] shuffle(int[] nums, int n) {
+        int newArr[] = new int[2*n];
+        int i=0,j=0,p =n;
+        while(j<2*n){
+            newArr[j]=nums[i];
+            newArr[j+1]=nums[p+i];
+            j=j+2;
+            i++;
+        }
+        return newArr;
+    }
+}
