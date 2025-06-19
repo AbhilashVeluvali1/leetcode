@@ -1,0 +1,10 @@
+1. Second Largest in the Array:
+2. Remove Duplicates from Sorted Array
+3. Rotate array by d places:
+    i.   rotate the entire array
+    ii.  rotate the array from 0, d-1 places
+    iii. rotate the array from d, n-1 places
+4. Move Zeros to the end:
+    i.  identify the position of the first zero and store the index.
+    ii. from the next index of the 1st zero, swap the elements if its zero and increment the zeroIndex everytime you do it.
+5.
