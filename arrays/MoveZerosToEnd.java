@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class MoveZerosToEnd {
     public void moveZeros(int [] nums) {
         int zeroIndex =-1;
@@ -20,9 +22,10 @@ public class MoveZerosToEnd {
                 zeroIndex+=1;
             }
         }
-        System.out.println(nums);
+        System.out.println(Arrays.toString(nums));
     }
     public static void main(String [] args) {
         MoveZerosToEnd m = new MoveZerosToEnd();
+        m.moveZeros(new int[]{0,1,0,3,12});
     }
 }
